@@ -1,0 +1,6 @@
+:root{
+    --co-light: #fff;
+    --co-dark: #000;
+}
+.textLight{color: var(--co-light);}
+.textDark{color: var(--co-dark);}

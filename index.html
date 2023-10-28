@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CyberPunk</title>
+    <link rel="stylesheet" href="../project/cyberCodeset/styles/general.css">
+    <link rel="stylesheet" href="../project/cyberCodeset/styles/sidebar.css">
+    <link rel="stylesheet" href="../project/cyberCodeset/styles/typo.css">
+    <link rel="stylesheet" href="../project/cyberCodeset/styles/color.css">
+    <link rel="stylesheet" href="../project/cyberCodeset/styles/size.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="container">
+        <div class="row dflex just-cont-between">
+            <div class="navBrand">CyberCode</div>
+            <button id="sidebarToggle">Open Sidebar</button>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <!-- Sidebar content goes here -->
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="container bg-red">
+        <div class="row">
+            <div class="col-12">
+                <h1>Hello World</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus odit omnis pariatur quia quo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // JavaScript to toggle the sidebar
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+
+    sidebarToggle.addEventListener('click', () => {
+        sidebar.classList.toggle('open');
+    });
+</script>
+</body>
+</html>

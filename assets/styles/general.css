@@ -1,0 +1,195 @@
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/* $$$$$$$ General $$$$$$$ */
+:root {
+    /*padding*/
+    --p-xs: 1rem;
+    --p-sm: 1.5rem;
+    --p-md: 2rem;
+    --p-lg: 2.5rem;
+    --p-xl: 3rem;
+    /*margin*/
+    --m-xs: 1rem;
+    --m-sm: 1.5rem;
+    --m-md: 2rem;
+    --m-lg: 2.5rem;
+    --m-xl: 3rem;
+}
+
+.navBrand{
+    font-family: sans-serif;
+    font-size: 36px;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/* $$$$$$$ Container $$$$$$$ */
+.container {
+    width: 100%;
+    padding-right: var(--p-sm);
+    padding-left: var(--p-sm);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+/* $$$$$$$ Container Breakpoints $$$$$$$ */
+/* xs devices (phones) */
+@media (max-width: 575.99px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* sm devices (tablets) */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* m devices (desktops) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* lg devices (desktops) */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* xl devices (large desktops) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*  Row */
+.row {
+    width: 100%;
+    padding-right: var(--p-sm);
+    padding-left: var(--p-sm);
+    display: flex;
+}
+
+/*  Column Classes */
+.col-1 {
+    float: left;
+    width: 8.33333%;
+}
+
+.col-2 {
+    float: left;
+    width: 16.66667%;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+}
+
+.col-4 {
+    float: left;
+    width: 33.33333%;
+}
+
+.col-5 {
+    float: left;
+    width: 41.66667%;
+}
+
+.col-6 {
+    float: left;
+    width: 50%;
+}
+
+.col-7 {
+    float: left;
+    width: 58.33333%;
+}
+
+.col-8 {
+    float: left;
+    width: 66.66667%;
+}
+
+.col-9 {
+    float: left;
+    width: 75%;
+}
+
+.col-10 {
+    float: left;
+    width: 83.33333%;
+}
+
+.col-11 {
+    float: left;
+    width: 91.66667%;
+}
+
+.col-12 {
+    float: left;
+    width: 100%;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*  Display */
+.dflex {
+    display: flex !important;
+}
+/*  Justifycontent */
+.just-cont-center {
+    justify-content: center !important;
+}
+
+.just-cont-between {
+    justify-content: space-between !important;
+}
+
+.just-cont-around {
+    justify-content: space-around !important;
+}
+
+.just-cont-envenly {
+    justify-content: space-evenly !important;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.align-items-end{
+    align-items: end !important;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*  Test */
+
+body {
+    background-color: #202020;
+}
+
+.bg-blue-light {
+    background-color: paleturquoise;
+}
+.bg-blue {
+    background-color: turquoise;
+}
+
+/*.container {*/
+/*    background-color: paleturquoise;*/
+/*}*/
+/*.row {*/
+/*    background-color: turquoise;*/
+/*}*/
+
+
+
+
+
