@@ -1,0 +1,19 @@
+root: {
+  --btonPt: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color1);
+}
+
+.bton{
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  margin-top: var(--btonPt);
+}
+.btonPurple{
+  background-color: var(--color1);
+  color: var(--white);
+  border-radius: 50px;
+}

@@ -2,6 +2,7 @@
     --white: #fff;
     --wLight: #ffffffbf;
     --dark: #000;
+    --color1: #6c5dd1;
 }
 .textLight{color: var(--wLight);}
 .textDark{color: var(--dark);}

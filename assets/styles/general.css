@@ -21,9 +21,9 @@ body{
 }
 
 .navBrand{
-    font-family: sans-serif;
+    font-family: sans-serif; 
     font-size: 36px;
-    color: #fff;
+    color: var(--white);
     /*text-transform: uppercase;*/
     font-weight: bold;
 }
@@ -43,7 +43,7 @@ body{
 /* xs devices (phones) */
 @media (max-width: 575.99px) {
     .container {
-        max-width: 540;
+        max-width: 540px;
     }
 }
 
